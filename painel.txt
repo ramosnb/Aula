@@ -37,6 +37,26 @@ public class painel extends JPanel {
 		this.setBackground(Color.black);
 		 this.setPreferredSize(new Dimension (100, 100));
 		 }
+		 else if (id == 14)
+		 {
+		this.setBackground(Color.red);
+		 this.setPreferredSize(new Dimension (100, 100));
+		 }
+		 else if (id == 15)
+		 {
+		this.setBackground(Color.orange);
+		 this.setPreferredSize(new Dimension (100, 200));
+		 }
+		 else if (id == 16)
+		 {
+		this.setBackground(Color.blue);
+		 this.setPreferredSize(new Dimension (100, 200));
+		 }
+		 else if (id == 17)
+		 {
+		this.setBackground(Color.gray);
+		 this.setPreferredSize(new Dimension (100, 200));
+		 }
 	 }
 }
 
