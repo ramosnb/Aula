@@ -6,8 +6,9 @@ public class principal {
 
 	public static void main(String[] args) {
 		
-		moldura m1 = new moldura(1);
-		moldura m2 = new moldura(2);
+		//moldura m1 = new moldura(1);
+		//moldura m2 = new moldura(2);
+		moldura m3 = new moldura(3);//BORDER LAYOUT
 		
 	}
 
