@@ -55,16 +55,19 @@ public class moldura extends JFrame
         else if (Id_moldura == 3)//frame com BORDERLAYOUT
         {
         	this.setSize(500,500);
-        	this.setLocation(300 ,100);
+        	this.setLocation(300 ,250);
         	this.setAlwaysOnTop(true);
         	this.setResizable(false);
-        	this.setTitle(getTitle());
+        	this.setTitle("AULA 02 - BORDER LAYOUT");
             this.setLayout(new BorderLayout());
         	this.setVisible(true);
         	
-        	
+        	//cria os paineis
+    		painel p13 =new painel(13);
+    		this.add(p13, BorderLayout.NORTH);
+    		
+        }	
+}
+        
         }
-        	
-}
-}
 
