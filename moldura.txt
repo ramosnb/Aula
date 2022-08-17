@@ -1,0 +1,57 @@
+package PAINEIS;
+
+
+import java.awt.Color;
+import java.awt.FlowLayout;
+import javax.swing.JFrame;
+
+
+public class moldura extends JFrame 
+{
+	//construtor
+        moldura(int Id_moldura)
+        {
+        	if (Id_moldura == 1)
+        	{
+        		
+        	this.setSize(500,500);// tamanho
+        	this.setLocation(300 ,100);
+        	
+    		System.out.println("AULA02");// titulo
+    		this.setAlwaysOnTop(true);// mantem o frame sempre no topo
+    		this.setResizable(false);// nao permite que o frame seja alterado tamanho
+    		
+    		this.setExtendedState(MAXIMIZED_BOTH);
+    		
+    		this.setVisible(true);
+    		this.setLayout(null);//define layout como padrao
+    		
+  
+    		painel p1 =new painel(1);
+    		this.add(p1);
+    		painel p2 =new painel(2);
+    		this.add(p2);
+    				
+        }
+        else if (Id_moldura == 2)//frame com FLOWLAYOUT
+        {
+        	this.setSize(500,500);
+        	this.setLocation(300 ,100);
+        	this.setAlwaysOnTop(true);
+        	this.setResizable(false);
+        	this.setVisible(true);
+        	this.setLayout(new FlowLayout());
+        	
+        	//cria os paineis
+    		painel p10 =new painel(10);
+    		this.add(p10);
+    		painel p11 =new painel(11);
+    		this.add(p11);
+    		painel p12 =new painel(12);
+    		this.add(p12);
+        	
+        }
+        	
+}
+}
+
