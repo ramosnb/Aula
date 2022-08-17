@@ -65,6 +65,14 @@ public class moldura extends JFrame
         	//cria os paineis
     		painel p13 =new painel(13);
     		this.add(p13, BorderLayout.NORTH);
+    		painel p14 =new painel(14);
+    		this.add(p14, BorderLayout.SOUTH);
+    		painel p15 =new painel(15);
+    		this.add(p15, BorderLayout.CENTER);
+    		painel p16 =new painel(16);
+    		this.add(p16, BorderLayout.WEST);
+    		painel p17 =new painel(17);
+    		this.add(p17, BorderLayout.EAST);
     		
         }	
 }
