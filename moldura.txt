@@ -84,11 +84,15 @@ public class moldura extends JFrame
         	this.setAlwaysOnTop(true);
         	this.setResizable(false);
         	this.setLocation(300 ,300);
-        	this.setLayout (new BoxLayout (getContainerPane(), BoxLayout.X_AXIS));
+        	this.setLayout (new BoxLayout (getContentPane(), BoxLayout.Y_AXIS));
         	this.setVisible(true);
         	
-        	this.setVisible(true);
-        	
+    		painel p20 =new painel(20);
+    		painel p21 =new painel(21);
+    		painel p22 =new painel(22);
+    		this.add(p20);
+    		this.add(p21);
+    		this.add(p22);
     		
         }	
 }
