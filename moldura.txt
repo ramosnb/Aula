@@ -4,6 +4,8 @@ package PAINEIS;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.FlowLayout;
+
+import javax.swing.BoxLayout;
 import javax.swing.JFrame;
 
 
@@ -66,13 +68,27 @@ public class moldura extends JFrame
     		painel p13 =new painel(13);
     		this.add(p13, BorderLayout.NORTH);
     		painel p14 =new painel(14);
-    		this.add(p14, BorderLayout.SOUTH);
+    		this.add(p14, BorderLayout.SOUTH); 
     		painel p15 =new painel(15);
     		this.add(p15, BorderLayout.CENTER);
     		painel p16 =new painel(16);
     		this.add(p16, BorderLayout.WEST);
     		painel p17 =new painel(17);
     		this.add(p17, BorderLayout.EAST);
+    		
+        }	
+        else if (Id_moldura == 4)//BoxLayout
+        {
+        	this.setSize(500,500);
+        	this.setTitle("AULA 02 - BoxLayout");
+        	this.setAlwaysOnTop(true);
+        	this.setResizable(false);
+        	this.setLocation(300 ,300);
+        	this.setLayout (new BoxLayout (getContainerPane(), BoxLayout.X_AXIS));
+        	this.setVisible(true);
+        	
+        	this.setVisible(true);
+        	
     		
         }	
 }
