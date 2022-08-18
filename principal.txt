@@ -8,7 +8,8 @@ public class principal {
 		
 		//moldura m1 = new moldura(1);
 		//moldura m2 = new moldura(2);
-		moldura m3 = new moldura(3);//BORDER LAYOUT
+		//moldura m3 = new moldura(3);//BORDER LAYOUT
+		 moldura m4 = new moldura(4);//BoxLayout
 		
 	}
 
